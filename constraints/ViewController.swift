@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         
     }
     
+    /**
+    Detecta el tamano de la pnatalla
+    **/
     func pantalla() {
         if UIDevice().userInterfaceIdiom == .phone {
             switch UIScreen.main.nativeBounds.height {
