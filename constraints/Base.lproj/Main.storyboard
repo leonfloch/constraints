@@ -27,6 +27,9 @@
                                 <state key="normal" title="LIMPIAR">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="limpiar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rC-iB-qRf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAM-o1-szJ">
                                 <rect key="frame" x="16" y="621" width="343" height="60"/>
@@ -34,6 +37,9 @@
                                 <state key="normal" title="CALCULAR">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calcular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AIo-bA-FXx"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10%" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bB1-AT-EbT">
                                 <rect key="frame" x="264" y="537" width="95" height="60"/>
@@ -134,6 +140,10 @@
                     </view>
                     <connections>
                         <outlet property="bottonConstraint" destination="FdN-4a-jwY" id="dLD-il-mDb"/>
+                        <outlet property="cantidadText" destination="pBT-nS-cul" id="cx2-7m-bmK"/>
+                        <outlet property="descuento" destination="MTG-yk-1dC" id="94a-1Z-bZQ"/>
+                        <outlet property="porcentajeText" destination="bB1-AT-EbT" id="wHE-n0-jkg"/>
+                        <outlet property="total" destination="mxZ-xn-w3L" id="JEG-Yz-Ah7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
